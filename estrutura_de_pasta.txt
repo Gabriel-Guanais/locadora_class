@@ -1,0 +1,19 @@
+locadora/
+├── main.py                # Arquivo principal para executar o sistema
+├── models/                # Contém as classes principais (Carros, Cliente, Locadora, etc.)
+│   ├── __init__.py        # Torna a pasta um módulo Python
+│   ├── carro.py           # Classe Carros
+│   ├── cliente.py         # Classe Cliente
+│   ├── locadora.py        # Classe Locadora
+├── services/              # Contém a lógica de negócios (ex.: alugar carro, gerar relatórios)
+│   ├── __init__.py        # Torna a pasta um módulo Python
+│   ├── aluguel_service.py # Lógica para alugar carros
+│   ├── relatorio_service.py # Lógica para gerar relatórios
+├── utils/                 # Contém funções auxiliares (ex.: validações, formatações)
+│   ├── __init__.py        # Torna a pasta um módulo Python
+│   ├── validacoes.py      # Funções para validar CPF, idade, etc.
+├── data/                  # Contém arquivos de dados (ex.: persistência em arquivos)
+│   ├── carros.json        # Dados dos carros
+│   ├── clientes.json      # Dados dos clientes
+│   ├── locacoes.json      # Dados das locações
+└── README.md              # Documentação do projeto
