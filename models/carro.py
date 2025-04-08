@@ -17,7 +17,10 @@ class Carro:
     @property
     def disponivel(self):
         return self.__disponivel
-        
+    
+    @disponivel.setter
+    def set_disponibilidade(self,status):
+        self.disponivel = status
         
     def carro_informacoes(self):
         if self.disponivel:

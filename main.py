@@ -12,7 +12,9 @@ def tabela():
     print('|    4-Cadastrar Carro                   |')
     print('|    5-Lista Carros Disponiveis          |')
     print('|    6-Alugar Carro                      |')
-    print('|    6-Relatorio                         |')
+    print('|    7-Listar Locacoes                   |')
+    print('|    8-Relatorio                         |')
+    print('|    9-Sair                              |')
     print('------------------------------------------')
         
 def limpar_terminal():
